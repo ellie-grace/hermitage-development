@@ -336,8 +336,8 @@ nav {
     width: 100vw;
     height: 75vh; 
     /* margin-top: 20px;  */
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(60,99,130, 0.5)), to(rgba(10,61,98,0.7))), url(img/bg.jpg) no-repeat center center fixed;
-    background: linear-gradient(rgba(60,99,130, 0.5), rgba(10,61,98,0.7)), url(img/bg.jpg) no-repeat center center fixed;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(60,99,130, 0.5)), to(rgba(10,61,98,0.7))), url(img/bg.JPG) no-repeat center center fixed;
+    background: linear-gradient(rgba(60,99,130, 0.5), rgba(10,61,98,0.7)), url(img/bg.JPG) no-repeat center center fixed;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1473,7 +1473,6 @@ textarea {
 	border: 2px solid white;
 -webkit-transition-property: opacity;
 transition-property: opacity;
-    -webkit-transition-duration: 1s;
     -webkit-timing-function: ease-in-out;
    
 }
