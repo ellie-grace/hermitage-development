@@ -20,6 +20,6 @@ XHR.onreadystatechange = function() {
 };
     }
   
-  XHR.open("GET", 'https://api.openweathermap.org/data/2.5/weather?&id=2562655&APPID=40a212561317210107b5f841934217ca');
+  XHR.open("GET", 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?&id=2562655&APPID=40a212561317210107b5f841934217ca');
   XHR.send();
 
