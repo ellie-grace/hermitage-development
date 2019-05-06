@@ -10,9 +10,9 @@ XHR.onreadystatechange = function() {
 	var celsius=Math.round(kelvin-273.15);
 	var iconCode=data.weather[0].icon;
 	temp.innerText=celsius;
-	icon.src="http://openweathermap.org/img/w/"+iconCode+".png"
-	
-	
+	console.log(iconCode);
+	console.log(celsius);
+	icon.src = "img/weather-icons/" + iconCode + ".png";
 
 
 
